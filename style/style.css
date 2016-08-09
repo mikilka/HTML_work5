@@ -1,32 +1,96 @@
 .container {
     width: 1215px;
-    height: 1064px;
+    height: 1028px;
     background-image: url(../img/bg.png);
-    position: relative;
 }
 
 header {
+    width: 1215px;
     height: 35px;
     background-color: rgba(7, 80, 143, .75);
+    position: relative;
 }
 
 .topmenu li {
     display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 11px;
+}
+
+.topmenu li:first-child {
+    margin-left: 456px;
+}
+
+.topmenu li:nth-child(6) {
+    margin-left: 43px;
+}
+
+.topmenu li:nth-child(6) a {
+    letter-spacing: .4px;
+    color: #fff;
+}
+
+.topmenu li:nth-child(7) a {
+    letter-spacing: -.3px;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
+    font-family: 'texgyreheroscnregular', Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: -.5px;
+    color: #60b5ed;
 }
 
+li:hover {
+    height: 35px;
+    line-height: 35px;
+    background-color: #4eabda;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.vline {
+    position: absolute;
+    left: 843px;
+    top: 0;
+    height: 35px;
+    content: " ";
+    border-left: 1px solid #56a2dc;
+}
+
+.icon {
+    position: absolute;
+    left: 863px;
+    top: 6px;
+    height: 23px;
+    content: url(../img/ivenicon.png);
+}
+/*.vline img {
+    margin-top: 5px;
+}
+*/
 .user_form
 {
     position: absolute;
-    top: 210px;
-    left: 350px;
-    width: 400px;
-    height: 600px;
+    top: 249px;
+    left: 353px;
+    width: 560px;
+    height: 613px;
     background-color: rgba(40, 40, 40, .5);
     z-index: 2;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    color: #d8ddd7;
 }
 
 input,
