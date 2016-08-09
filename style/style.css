@@ -28,3 +28,52 @@ a {
     background-color: rgba(40, 40, 40, .5);
     z-index: 2;
 }
+
+input,
+button {
+    display: block;
+}
+
+#checkbox {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 20px;
+    border: none;
+}
+
+input {
+    -webkit-box-shadow: 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+    box-shadow: 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #111, #0e0d0d);
+    background-image: -moz-linear-gradient(bottom, #111, #0e0d0d);
+    background-image: -o-linear-gradient(bottom, #111, #0e0d0d);
+    background-image: -ms-linear-gradient(bottom, #111, #0e0d0d);
+    background-image: linear-gradient(to top, #111, #0e0d0d);
+    border: none;
+    width: 284px;
+    height: 41px;
+    margin: 20px auto;
+    color: #ccc;
+    padding-left: 20px;
+}
+
+button {
+    border: solid 1px rgba(107, 184, 231, 0.7);
+    border-radius: 5%;
+    background-image: -webkit-linear-gradient(bottom, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
+    background-image: -moz-linear-gradient(bottom, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
+    background-image: -o-linear-gradient(bottom, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
+    background-image: -ms-linear-gradient(bottom, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
+    background-image: linear-gradient(to top, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
+    width: 155px;
+    height: 41px;
+    margin: 20px auto;
+}
+
+.privacy {
+    font-size: 11pt;
+    color: #ccc;
+    text-align: center;
+}
