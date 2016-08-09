@@ -70,10 +70,7 @@ a:hover {
     height: 23px;
     content: url(../img/ivenicon.png);
 }
-/*.vline img {
-    margin-top: 5px;
-}
-*/
+
 .user_form
 {
     position: absolute;
@@ -86,11 +83,34 @@ a:hover {
 }
 
 h1 {
+    margin: 19px 0 15px -14px;
     text-align: center;
+    font-size: 27px;
+    font-family: 'texgyreheroscnregular', Arial, sans-serif;
+    letter-spacing: -1.9px;
+    color: #fff;
 }
 
 hr {
     color: #d8ddd7;
+}
+
+.facebook {
+    margin-top: 37px;
+    text-align: center;
+}
+
+.ou {
+    text-align: center;
+    font-family: 'texgyreheroscnregular', Arial, sans-serif;
+    color: #818381;
+    margin-top: 28px;
+}
+
+.ou hr {
+    display: inline-block;
+    width: 122px;
+    margin: 5px 3px;
 }
 
 input,
@@ -102,8 +122,8 @@ button {
     display: inline-block;
     width: 13px;
     height: 13px;
-    margin-left: 20px;
-    border: none;
+    margin-left: 143px;
+    margin-top: 7px;
 }
 
 input {
@@ -116,11 +136,34 @@ input {
     background-image: -ms-linear-gradient(bottom, #111, #0e0d0d);
     background-image: linear-gradient(to top, #111, #0e0d0d);
     border: none;
-    width: 284px;
-    height: 41px;
-    margin: 20px auto;
+    width: 258px;
+    height: 34px;
+    margin: 17px auto;
+    color: #fff;
+    padding-left: 16px;
+}
+
+input:hover {
+    -webkit-box-shadow: 0 0 9px rgba(47,123,197,.9), 0 3px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 9px rgba(47,123,197,.9), 0 3px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+    box-shadow: 0 0 9px rgba(47,123,197,.9), 0 3px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+    background-image: -webkit-linear-gradient(bottom, #1b5288, rgba(27, 82, 136, .5));
+    background-image: -moz-linear-gradient(bottom, #1b5288, rgba(27, 82, 136, .5));
+    background-image: -o-linear-gradient(bottom, #1b5288, rgba(27, 82, 136, .5));
+    background-image: -ms-linear-gradient(bottom, #1b5288, rgba(27, 82, 136, .5));
+    background-image: linear-gradient(to top, #1b5288, rgba(27, 82, 136, .5));
+}
+
+input:first-child {
+    margin-top: 20px;
+}
+
+.tips {
+    font-family: 'texgyreheroscnregular', Arial, sans-serif;
     color: #ccc;
-    padding-left: 20px;
+    font-size: 15px;
+    margin-left: 2px;
+    letter-spacing: -.3px;
 }
 
 button {
@@ -131,13 +174,20 @@ button {
     background-image: -o-linear-gradient(bottom, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
     background-image: -ms-linear-gradient(bottom, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
     background-image: linear-gradient(to top, rgba(74, 155, 215, 1) 20%, rgba(46, 122, 196, .3));
-    width: 155px;
-    height: 41px;
-    margin: 20px auto;
+    width: 150px;
+    height: 38px;
+    margin: 6px auto;
+    font-family: 'texgyreheroscnregular', Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: -.4px;
+    color: #fff;
 }
 
 .privacy {
-    font-size: 11pt;
+    font-size: 11px;
+    margin-top: 15px;
+    font-family: 'texgyreheroscnregular', Arial, sans-serif;
     color: #ccc;
     text-align: center;
+    line-height: 16px;
 }
