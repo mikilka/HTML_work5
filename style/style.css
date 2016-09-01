@@ -126,10 +126,6 @@ h1 {
     text-align: center;
 }
 
-hr {
-    color: #d8ddd7;
-}
-
 .facebook {
     margin-top: 37px;
     text-align: center;
@@ -142,8 +138,11 @@ hr {
     text-align: center;
 }
 
-.ou hr {
+.ou:before,
+.ou:after {
     display: inline-block;
+    content: "";
+    border-top: #d8ddd7 solid 1px;
     width: 122px;
     margin: 5px 3px;
 }
